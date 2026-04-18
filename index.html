@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Weather Intelligence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="app-container">
+
+    <header>
+      <h1>🌦 Smart Weather AI</h1>
+      <div class="toggle-unit">
+        <span id="unitC" class="active">°C</span>
+        <span>|</span>
+        <span id="unitF">°F</span>
+      </div>
+    </header>
+
+    <section class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <section id="currentWeather" class="weather-section"></section>
+
+    <!-- NEW: Smart Insights -->
+    <section id="insights" class="insight-section"></section>
+
+    <section id="forecastCards" class="forecast-section"></section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
